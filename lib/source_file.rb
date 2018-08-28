@@ -1,4 +1,10 @@
-class Sitemap
+class SourceFile
+
+  belongs_to :report
+  has_many :nodes
+  has_many :images, through: :nodes
+  has_many :videos, through: :nodes
+  has_many :path_segments, through: :nodes
 
   def initialize(loc)
     @loc = loc

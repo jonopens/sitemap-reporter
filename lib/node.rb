@@ -1,6 +1,7 @@
 class Node < ActiveRecord::Base
 
   belongs_to :sitemap
+  has_many :path_segments, :images, :videos
 
   def initialize(url, last_mod = nil, priority = nil)
     @url = url
