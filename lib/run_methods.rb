@@ -5,8 +5,9 @@ class RunMethods
   # - group urls by page path segments
   # - report status code for each url (optional by sitemap)
   
-  def is_index?(sitemap_instance)
-
+  def prompt_user
+    puts "sup, gimme url or absolute file path, jerko"
+    input = gets.chomp
   end
 
 end
