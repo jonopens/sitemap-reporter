@@ -6,8 +6,13 @@ class RunMethods
   # - report status code for each url (optional by sitemap)
   
   def prompt_user
-    puts "sup, gimme url or absolute file path, jerko"
+    puts "sup. gimme url or absolute file path, jerko"
     input = gets.chomp
+  end
+
+  def validate_user_input(path_to_sitemap)
+    # does the request 200? proceed. 
+    # does the file live where they say it does? proceed.
   end
 
 end
