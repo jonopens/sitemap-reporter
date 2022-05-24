@@ -33,7 +33,7 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    rack (2.0.5)
+    rack (2.2.3)
     rack-protection (2.0.3)
       rack
     require_all (2.0.0)
@@ -62,6 +62,7 @@ GEM
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
       sinatra (>= 1.0)
+    sqlite3 (1.4.2)
     thread_safe (0.3.6)
     tilt (2.0.8)
     tzinfo (1.2.5)
@@ -80,6 +81,7 @@ DEPENDENCIES
   rest-client
   rspec
   sinatra-activerecord
+  sqlite3
 
 BUNDLED WITH
    1.16.2
